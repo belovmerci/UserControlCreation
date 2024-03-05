@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.clearableTextBox1 = new UserControlCreation.ClearableTextBox();
             this.clearableTextBox2 = new UserControlCreation.ClearableTextBox();
+            this.clearableTextBox1 = new UserControlCreation.ClearableTextBox();
             this.SuspendLayout();
+            // 
+            // clearableTextBox2
+            // 
+            this.clearableTextBox2.Location = new System.Drawing.Point(12, 72);
+            this.clearableTextBox2.MinimumSize = new System.Drawing.Size(84, 53);
+            this.clearableTextBox2.Name = "clearableTextBox2";
+            this.clearableTextBox2.Size = new System.Drawing.Size(191, 53);
+            this.clearableTextBox2.TabIndex = 1;
+            this.clearableTextBox2.Title = "label1";
             // 
             // clearableTextBox1
             // 
@@ -40,15 +49,7 @@
             this.clearableTextBox1.Size = new System.Drawing.Size(191, 53);
             this.clearableTextBox1.TabIndex = 0;
             this.clearableTextBox1.Title = "label1";
-            // 
-            // clearableTextBox2
-            // 
-            this.clearableTextBox2.Location = new System.Drawing.Point(13, 100);
-            this.clearableTextBox2.MinimumSize = new System.Drawing.Size(84, 53);
-            this.clearableTextBox2.Name = "clearableTextBox2";
-            this.clearableTextBox2.Size = new System.Drawing.Size(191, 53);
-            this.clearableTextBox2.TabIndex = 1;
-            this.clearableTextBox2.Title = "label1";
+            this.clearableTextBox1.Load += new System.EventHandler(this.clearableTextBox1_Load);
             // 
             // Form1
             // 
